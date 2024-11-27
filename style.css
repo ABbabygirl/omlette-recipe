@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Young+Serif&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    
+}
+
+h1, h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+             
+}
+
+p, li, h3{
+    
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.main-container{
+    margin: 50px;
+    
+
+}
+.bg-container{
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 25px;
+    margin: 0 auto;
+}   
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+.bg-container header h1{
+    padding: 5px;
+    padding-bottom: 5px;
+}
+.bg-container p{
+    padding: 5px;
+    margin-bottom: 20px ;
+   
+}
+
+.prep{
+    border: 1px solid transparent;
+    background-color: rgb(241, 229, 227);
+    border-radius: 8px;
+    padding: 20px; 
+    margin-bottom: 25px;
+    
+}
+
+.prep-time h3{
+    color: firebrick;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
+.prep ul{
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.prep ul li{
+    padding: 3px;
+    margin: 3px;
+}
+
+.ingred h2{
+    padding: 3px;
+    color: darkred;
+    padding-right: 5px;
+}
+
+.ingred ul{
+    padding-left: 20px;
+    margin-top: 0;
+}
+.ingred ul li{
+    padding: 3px;
+    margin: 3px;
+    
+}
+
+hr {
+    margin:25px 15px; 
+
+}
+
+.ingred .instruct{
+    padding-top: 9px; 
+    
+}
+
+.instruct ol{
+    padding-left: 28px;
+}
+
+.instruct h2{
+    padding: 15px;
+    color: darkred;
+    padding-right: 5px;
+}
+
+.instruct ol li {
+   padding: 4px; 
+   margin: 3px   
+}
+
+.nut h2{
+    padding-left: 20px;
+    margin-bottom: 15px;
+    color: darkred
+}
+
+.nut p{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+tr{
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+   padding: 15px 30px;
+
+   border-bottom: 1px solid grey  
+}
+
+.fats{
+    border-bottom: none;
+}
+
+table{
+    width: 100%;
+    padding: 0 20px;   
+}
+
+.t-data{
+    color: darkred;
+}
+
+@media (max-width: 600px) {
+   .bg-container{
+        width: 100%;
+        padding: 10px;
+    }
+
+    img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        /* padding: 5px; */
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .main-container{
+        margin: 20px;
+        
+    }
+
+    tr{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        padding: 15px 0;
+        border-bottom: 1px solid grey  
+     }
+
+     footer{
+        text-align: center;
+        padding: 20px;
+     }
+
+     .t-data{
+        color: darkred;
+        padding-left: 10px;
+    }
+    
+     
+}
+
+
+
+
